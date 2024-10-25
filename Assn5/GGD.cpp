@@ -15,6 +15,7 @@
 GGD::GGD() // constructor
 {
 	// dynamic allocation
+	bird_list = new BirdList(); // bird_list 동적 할당 추가
 	// set bird_list's head, tail and connect them
 	BirdNode *head = new BirdNode;
 	bird_list->SetHead(head);
